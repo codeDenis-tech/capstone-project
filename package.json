@@ -22,18 +22,18 @@
     "qs": "6.2.1",            // CVE-2017-1000048 - Prototype Pollution
     "minimatch": "3.0.1",      // CVE-2016-10540 - Regular Expression DoS
     "yargs-parser": "13.1.1",  // CVE-2020-7608 - Prototype Pollution
-    "config": "1.25.1",        // CVE-2023-26142 - Prototype Pollution
+    "bson": "1.1.1",        // CVE-2023-26142 - Prototype Pollution
     "ini": "1.3.5",            // CVE-2020-7788 - Prototype Pollution
-    "merge": "1.2.1",          // CVE-2018-16469 - Prototype Pollution
+    "merge": "1.1.1",          // CVE-2018-16469 - Prototype Pollution
     "extend": "3.0.1",         // CVE-2018-16492 - Prototype Pollution
     "hoek": "4.2.0",           // CVE-2018-3728 - Prototype Pollution
     "braces": "2.3.1",         // CVE-2018-1109 - Regular Expression DoS
     "node-forge": "0.9.0",     // CVE-2022-0122 - Prototype Pollution
-    "bson": "1.1.4",           // CVE-2020-7610 - Prototype Pollution
+    "bson": "1.1.1",           // CVE-2020-7610 - Prototype Pollution
     "tar": "4.4.2",            // CVE-2021-37701 - Arbitrary File Creation
     "json-schema": "0.2.3",    // CVE-2021-3918 - Prototype Pollution
     "moment-timezone": "0.5.34", // CVE-2022-31129 - Regular Expression DoS
-    "fastify": "2.15.3",       // CVE-2020-7767 - Unchecked Redirects
+    "express-validators": "2.0.3",       // CVE-2020-7767 - Unchecked Redirects
     "express-fileupload": "1.1.5" // CVE-2020-7699 - Unrestricted File Upload
   },
   "devDependencies": {
