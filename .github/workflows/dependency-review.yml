@@ -20,6 +20,7 @@ jobs:
         uses: actions/dependency-review-action@v4
         with:
           comment-summary-in-pr: always
+          include-optional: true
         #   fail-on-severity: moderate
         #   deny-licenses: GPL-1.0-or-later, LGPL-2.0-or-later
         #   retry-on-snapshot-warnings: true
