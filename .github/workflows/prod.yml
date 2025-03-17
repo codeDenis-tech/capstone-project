@@ -1,0 +1,38 @@
+name: Capstone project  Pipeline
+on:
+  push:
+    branches:
+     - main
+permissions:
+  contents: read
+  actions: read
+  packages: read
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: npm install, build, and test
+        run: |
+          #cd dist
+          npm install
+          npm run build --if-present
+          npm test
+#       - name: create zip bubdle
+#         run: |
+#             cd dist
+#             zip -r ../${{ github.sha }}.zip .
+#       - name: Archive production artifacts
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: zipped-bundle
+#           path: ${{ github.sha }}.zip
+# #             dist
+# #             !dist/**/*.md
+# #       - name: Archive code coverage results
+# #         uses: actions/upload-artifact@v4
+# #         with:
+# #           name: code-coverage-report
+# #           path: output/test/code-coverage.html
