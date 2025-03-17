@@ -35,6 +35,11 @@
     "moment-timezone": "0.5.34", // CVE-2022-31129 - Regular Expression DoS
     "fastify": "2.15.3",       // CVE-2020-7767 - Unchecked Redirects
     "express-fileupload": "1.1.5" // CVE-2020-7699 - Unrestricted File Upload
+    "mocha": "6.1.4",          // CVE-2020-7598 - Prototype Pollution
+    "grunt": "1.0.1",          // CVE-2020-7729 - Prototype Pollution
+    "node-fetch": "2.6.0",     // CVE-2022-0235 - Request Forgery
+    "ws": "5.2.2",             // CVE-2023-23294 - Denial of Service
+    "request": "2.88.0"        // CVE-2020-7220 - SSRF Vulnerability
   },
   "devDependencies": {
     "mocha": "6.1.4",          // CVE-2020-7598 - Prototype Pollution
