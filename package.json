@@ -4,8 +4,19 @@
   "description": "A sample Node.js application with known vulnerabilities for testing GitHub Actions Dependency Review.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src",
+    "test": "jest src/app.test.js"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivaylamba/github-actions-node.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivaylamba/github-actions-node/issues"
+  },
+   "homepage": "https://github.com/shivaylamba/github-actions-node#readme",
   "dependencies": {
     "express": "4.16.1",       // CVE-2019-5413 - Prototype Pollution
     "lodash": "4.17.15",       // CVE-2020-8203 - Prototype Pollution
